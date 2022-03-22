@@ -1,0 +1,189 @@
+.a {
+    height: 100vh;
+    display: block;
+    
+    margin:0;
+    padding-left: 80px;
+    padding-right: 80px
+
+  }
+  .a-container{
+    display:flex;
+  }
+  
+  .a-right {
+    flex: 1;
+    display: flex;
+    padding-left: 250px;
+    position: relative;
+    height: 100%;
+  }
+  
+  .a-left {
+    flex: 1;
+  }
+  
+  
+  
+  .a-card {
+    width: 60%;
+    height: 70vh;
+    
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .a-img {
+    width: 80%;
+    height: 50%;
+    
+  }
+  
+  
+  .a-title {
+    font-weight: 1000;
+    font-size: 400;
+  }
+  
+  .a-sub {
+    margin: 20px 0px;
+  }
+
+  .Button{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px ;
+  }
+  .Button .button{
+    background: rgb(23, 23, 132);
+    color: #fff;
+  display: block;
+  width: 120px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: #2f54dc;
+  border: 2px solid #2f54dc;
+  transition: all 0.3s ease;
+}
+ .button:hover{
+  color: #2f54dc;
+  background: none;
+  }
+  
+  .b-container{
+    display:flex;
+
+  }
+  .b-left {
+    flex: 1;
+    display: flex;
+    
+    position: relative;
+    height: 100%;
+  }
+  
+  .b-right {
+    flex: 1;
+  }
+  
+  
+  
+  .b-card {
+    width: 60%;
+    height: 70vh;
+    
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .b-img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  
+  .b-title {
+    font-weight: 1000;
+    font-size: 400;
+  }
+  
+  .b-sub {
+    margin: 20px 0px;
+  }
+  
+  .c-container{
+    display:flex;
+  }
+  .c-right {
+    flex: 1;
+    display: flex;
+   
+    position: relative;
+    height: 100%;
+  }
+  
+  .c-left {
+    flex: 1;
+  }
+  
+  
+  
+  .c-card {
+    width: 60%;
+    height: 70vh;
+    
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .c-img {
+    width: 80%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  
+  .c-title {
+    font-weight: 1000;
+    font-size:400;
+  }
+  
+  .c-sub {
+    margin: 20px 0px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width:480px) {
+      .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+      }
+  
+      .a-left {
+        width: 100%;
+      }
+  
+      .a-card {
+        height: 30vh;
+      }
+  
+      
+  
+      .a-right{
+        padding: 20px;
+      }
+  }
